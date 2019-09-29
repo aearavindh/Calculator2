@@ -4,4 +4,3 @@ jdk:
   - oraclejdk12
 script: 
   - ant build
-  - ant Tests
