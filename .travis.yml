@@ -4,3 +4,13 @@ jdk:
   - oraclejdk12
 script: 
   - ant build
+deploy:
+   provider: elasticbeanstalk
+   access_key_id:
+     secure: "AKIAITDVUBVV43BXHOPQ"
+   secret_access_key:
+     secure: "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"
+   region: "us-east-2"
+   app: "Calculator"
+   env: "Calculator-env"
+   bucket_name: "elasticbeanstalk-us-east-2-096770920369"
