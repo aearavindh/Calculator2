@@ -9,4 +9,3 @@ deploy:
     secret_access_key: $AWS_KEY
     bucket: 'aea-aws-bucket'
     skip_cleanup: true
-   
